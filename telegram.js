@@ -10,7 +10,7 @@ function sendTelegramMessage(album){
       artistsString += ", " + album.artists[i].name;
     }
   
-    telegramBot.sendPhoto("@rappremierytest", album.images[0].url
+    telegramBot.sendPhoto("@rap_premiery", album.images[0].url
     , { caption: `
     <b>📣 Nowy Album! </b>
   

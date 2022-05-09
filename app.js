@@ -35,6 +35,9 @@ app.get('/', function (req, res) {
 // wrapped in object to pass by reference
 var offset = { value: 0 }; 
 
+// interval in miliseconds
+const tenMinutes = 1000 * 60 * 10;
+
 app.listen(app.get('port'), function () {
 
   // set interval for continous releases checking
@@ -50,7 +53,7 @@ app.listen(app.get('port'), function () {
     }
 
   }
-    , 10000);
+    , tenMinutes);
 
 })
 

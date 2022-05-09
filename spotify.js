@@ -6,7 +6,6 @@ const spotifyApi = new SpotifyWebApi({
   clientId: process.env.SPOTIFY_CLIENT_ID,
   clientSecret: process.env.SPOTIFY_CLIENT_SECRET
 });
-
 const matchingGenres = [
     'polish hip hop', 'polish trap', 'polish alternative rap',
     'polish viral rap', 'polish old school hip hop'

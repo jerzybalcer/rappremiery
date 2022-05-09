@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "mongodb": "^4.5.0",
     "node-telegram-bot-api": "^0.57.0",
     "spotify-web-api-node": "^5.0.2"
   }

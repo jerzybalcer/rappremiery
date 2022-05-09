@@ -1,8 +1,6 @@
-/* TELEGRAM */
-
 const TelegramBot = require('node-telegram-bot-api');
 
-const telegramBot = new TelegramBot(process.env.BOT_TOKEN_TEST, {polling: true});
+const telegramBot = new TelegramBot(process.env.BOT_TOKEN, {polling: true});
 
 function sendTelegramMessage(album){
   
